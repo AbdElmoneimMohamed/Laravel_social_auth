@@ -621,19 +621,19 @@
     array (
       'client_id' => '156336479957583',
       'client_secret' => '5a441f5090f19796471fb7f1fad4c55b',
-      'redirect' => 'http://localhost:8000/fb_callback',
+      'redirect' => 'http://localhost:8000/auth_callback',
     ),
     'google' => 
     array (
       'client_id' => '610393710510-n97blo94iedtk4i28gchr55hpltgbmd8.apps.googleusercontent.com',
       'client_secret' => 'Bd9TR4KaBvqQO9JHVzOC4Fox',
-      'redirect' => 'http://localhost:8000/gmail_callback',
+      'redirect' => 'http://localhost:8000/auth_callback',
     ),
     'github' => 
     array (
       'client_id' => 'Iv1.f5d12a0f0d252018',
       'client_secret' => '79a3697b62a6f9ebd05b664c0b4cc80a93b66784',
-      'redirect' => 'http://localhost:8000/github_callback',
+      'redirect' => 'http://localhost:8000/auth_callback',
     ),
   ),
   'session' => 

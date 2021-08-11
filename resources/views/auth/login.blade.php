@@ -67,20 +67,20 @@
                     </form>
                     <div class="row">
                         <div class=" items-center justify-end mt-4 col-md-4">
-                            <a class="btn" href="{{ url('fb_redirect') }}"
+                            <a class="btn" href="{{ url('auth_redirect',["facebook"]) }}"
                                style="background-color: #3B5499; color: #ffffff; padding: 8px; width: 100%; text-align: center; display: block; border-radius:4px;">
                                 Login with Facebook
                             </a>
                         </div>
                         <div class=" items-center justify-end mt-4 col-md-4">
-                            <a class="btn" href="{{ url('gmail_redirect') }}"
+                            <a class="btn" href="{{ url('auth_redirect',["google"]) }}"
                                style="background-color: red; color: #ffffff; padding: 8px; width: 100%; text-align: center; display: block; border-radius:4px;">
                                 Login with Gmail
                             </a>
                         </div>
 
                         <div class=" items-center justify-end mt-4 col-md-4">
-                            <a class="btn" href="{{ url('github_redirect') }}"
+                            <a class="btn" href="{{  url('auth_redirect',["github"]) }}"
                                style="background-color: gray; color: #ffffff; padding: 8px; width: 100%; text-align: center; display: block; border-radius:4px;">
                                 Login with Github
                             </a>
